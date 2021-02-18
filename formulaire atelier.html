@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription en licence </title>
+</head>
+<body>
+    <form name="inscription en licence " method="post" action=""> 
+    <h1> <font color = "blue" > inscription en licence  </font> </h1>
+    <fieldset> 
+        <legend> <font color = "green" > informations personnelles   </font> </legend>
+        <label for=""> votre nom  </label>
+        <input type="text" id="name" placeholder="votre nom ? "> <br> 
+
+        <label for=""> votre prénom  </label>
+        <input type="text" id="prénom" placeholder="votre prénom ? ">  <br> 
+
+        <label for=""> votre age  </label>
+        <input type="number" id="age" placeholder="votre age  ? " pattern="[01]?\d{1,2}"> <br> 
+         
+        <textarea name="votre adresse" placeholder="votre adresse "> </textarea> <br>
+        
+        <label for=""> mot de passe  </label>
+        <input type="password" id="password " required> <br>
+
+        <label for="">retapez votre mot de passe   </label>
+        <input type="password" id="password " required > <br>
+        <label for="">votre mail ?   </label>
+        <input type="email" placeholder="votre mail ? ">  <br> 
+        <label for="">URL site étudiant  :</label>
+        <input type="url" placeholder="site étudiant ? "> <br> 
+        <label for="">votre date de naissance  :</label>
+        <input type="date" placeholder="votre date de naissance ? "> 
+
+    </fieldset>
+
+    <fieldset> 
+        <legend> <font color = "green" > gestion des groupes et des options </font>  </legend>
+        <label for=""> votre groupe : </label>
+        <input type="radio" name="votre groupe " value="groupe 1 " /> groupe 1 
+        <input type="radio" name="votre groupe " value="groupe 2 " /> groupe 2  
+        <input type="radio" name="votre groupe " value="groupe 3 " /> groupe 3  <BR> 
+        <label for=""> numéro de carte d'étudiant  </label>
+        <input type="number" id="carte" placeholder="numéro carte d'étudiant?" > <br> 
+        <label for=""> choisissez les options que vous désirez : </label>
+        <select name="langage ">
+            <option value="J2ee">J2ee</option>
+            <option value="Android ">Android</option>
+            <option value="HTML5">html5 </option>
+            <option value="Flex">Flex</option>
+          </select>
+        
+    </fieldset>
+    <input type="submit"> 
+    <input type="reset"> 
+
+</form>
+</body>
+</html>
